@@ -1,0 +1,17 @@
+{
+  "name": "fu",
+  "version": "1.0.0",
+  "description": "File Uploader",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rishi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}

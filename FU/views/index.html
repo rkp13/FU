@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Sharing</title>
+    <link rel="stylesheet" type="text/css" href="dropzone.css" />
+</head>
+<body>
+  <div>
+    <form action="/" enctype="multipart/form-data" method="post">
+        <input type="file" name="upload" multiple>
+        <input type="submit" value="Upload">
+    </form>
+  </div>
+   <div>
+    <form action="upload.php" class="dropzone" id="my-awesome-dropzone"></form>   
+  </div>
+  <script type="text/javascript" src="dropzone.js"></script>
+</body>
+</html>
